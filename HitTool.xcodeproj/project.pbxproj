@@ -13,6 +13,7 @@
 		518C342E224E220F00B0D351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C342D224E220F00B0D351 /* main.m */; };
 		518C3439224E220F00B0D351 /* HitToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C3438224E220F00B0D351 /* HitToolTests.m */; };
 		518C3444224E220F00B0D351 /* HitToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C3443224E220F00B0D351 /* HitToolUITests.m */; };
+		52552E0122C1138C0058EB6C /* SpeedProvider.c in Sources */ = {isa = PBXBuildFile; fileRef = 52552E0022C1138C0058EB6C /* SpeedProvider.c */; };
 		94481B9C224FA7DC00321C71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94481B9E224FA7DC00321C71 /* Localizable.strings */; };
 		948DD936224E3D50008F6316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518C3429224E220F00B0D351 /* Main.storyboard */; };
 		948DD938224E3EBD008F6316 /* command.sh in Resources */ = {isa = PBXBuildFile; fileRef = 948DD937224E3EBC008F6316 /* command.sh */; };
@@ -53,6 +54,8 @@
 		518C343F224E220F00B0D351 /* HitToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		518C3443224E220F00B0D351 /* HitToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitToolUITests.m; sourceTree = "<group>"; };
 		518C3445224E220F00B0D351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52552DFF22C1138C0058EB6C /* SpeedProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedProvider.h; sourceTree = "<group>"; };
+		52552E0022C1138C0058EB6C /* SpeedProvider.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SpeedProvider.c; sourceTree = "<group>"; };
 		94481B93224FA53B00321C71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		94481B9D224FA7DC00321C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		94481B9F224FA7DE00321C71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				518C3422224E220E00B0D351 /* AppDelegate.m */,
 				518C3424224E220E00B0D351 /* ViewController.h */,
 				518C3425224E220E00B0D351 /* ViewController.m */,
+				52552E0022C1138C0058EB6C /* SpeedProvider.c */,
+				52552DFF22C1138C0058EB6C /* SpeedProvider.h */,
 				518C3427224E220F00B0D351 /* Assets.xcassets */,
 				518C3429224E220F00B0D351 /* Main.storyboard */,
 				518C342C224E220F00B0D351 /* Info.plist */,
@@ -280,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52552E0122C1138C0058EB6C /* SpeedProvider.c in Sources */,
 				518C3426224E220E00B0D351 /* ViewController.m in Sources */,
 				518C342E224E220F00B0D351 /* main.m in Sources */,
 				518C3423224E220E00B0D351 /* AppDelegate.m in Sources */,
@@ -458,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3A5SY5UP8M;
 				INFOPLIST_FILE = HitTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,7 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3A5SY5UP8M;
 				INFOPLIST_FILE = HitTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

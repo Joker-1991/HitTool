@@ -7,11 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SpeedProvider.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     
     NSStatusItem *statusItem;
+    NSMutableAttributedString *speedString;
+    struct if_data64 ifdata;
     
+    NSWindow *window;
+
 }
 
 @property (weak) IBOutlet NSMenuItem *triggerDisktopIconsMenuItem;
